@@ -15,15 +15,14 @@ public class PrincipalPersonaje {
             System.out.println("\n\t=======Personajes=========");
             System.out.println("1. Arquero");
             System.out.println("2. Espadachin");
-            System.out.println("3. Espadachin");
-            System.out.println("4. Salir");
+            System.out.println("3. Salir");
             while (true)
             {
                 try
                 {
                     System.out.print("ingrese una opciion: ");
                     op=Integer.parseInt(leercadena.lectura());
-                    if(op<1 || op>4)
+                    if(op<1 || op>3)
                     {
 
                     }else {
@@ -227,7 +226,7 @@ public class PrincipalPersonaje {
                 }break;
                 case 3:
                 {
-                    System.out.println("Hasta lluego");
+                    System.out.println("Hasta luego");
                 }break;
             }
         }while(op!=3);
