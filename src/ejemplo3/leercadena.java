@@ -5,5 +5,5 @@ import java.io.InputStreamReader;
 
 public class leercadena {
     private static BufferedReader dato=new BufferedReader(new InputStreamReader(System.in));
-    int op;
+    int oppp;
 }
