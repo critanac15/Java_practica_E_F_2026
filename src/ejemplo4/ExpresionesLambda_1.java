@@ -8,5 +8,6 @@ public class ExpresionesLambda_1 {
 
         //Llamar a la variable para que se ejecute
         eje.run();
+
     }
 }
